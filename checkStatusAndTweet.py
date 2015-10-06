@@ -20,9 +20,9 @@ htmlShareNet = shareNet.readlines()
 if len(htmlShareNet) < 1:
     print 'error connectiong to website'
     loadSheddingStatus = prevLDStatus   #   Set the status equal to the previous one
-
-#   Set the load shedding status
-loadSheddingStatus = int(htmlShareNet[0]) - 1 # such that a zero load stage = 0   
+else:
+    #   Set the load shedding status
+    loadSheddingStatus = int(htmlShareNet[0]) - 1 # such that a zero load stage = 0   
 
 #   Pull the local time from the  os
 theTimeIs = str(datetime.datetime.now())
