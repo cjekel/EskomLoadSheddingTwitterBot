@@ -11,6 +11,8 @@ To run the shell script in a Linux environment, simply execute 'sh checkStatusAn
 
 You will need to create a [twitter application key](https://dev.twitter.com/oauth) in order to use [Twython](http://twython.readthedocs.org/en/latest/). Then you must update the key values in the python script in order to login and post from your twitter account.
 
+Check out this post about how to [run the bot in Google Cloud Shell](http://jekel.me/2015/Python-Twitter-Bot-Using-Google-Shell/). 
+
 #MIT License
 The MIT License (MIT)
 
